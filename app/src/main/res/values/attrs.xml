@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //自定义属性
+    <declare-styleable name="RoundLoadView">
+        //背景颜色
+        <attr name="processBackgroundColor" format="color|reference"/>
+        //前景颜色
+        <attr name="processForegroundColor" format="color|reference"/>
+        //系统自带的属性 可以不要format
+        <attr name="android:textColor"/>
+    </declare-styleable>
+</resources>
